@@ -26,7 +26,7 @@ function Chat({ user, onLogout }) {
       conversationId: null,
     },
     {
-      text: 'Sover du eller?! 😴',
+      text: 'Sover du eller?!',
       avatar: 'https://i.pravatar.cc/100?img=14',
       username: 'Johnny',
       conversationId: null,
@@ -121,7 +121,7 @@ function Chat({ user, onLogout }) {
     }
   };
 
-  //Kombinera meddelanden
+  //lägger in fake meddelanden
   const allMessages = [...fakeChat, ...messages];
 
   if (loading) {
